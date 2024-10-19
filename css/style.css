@@ -1,0 +1,40 @@
+header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid #081C54;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #081C54;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+body {
+  background-color: #081C54;
+  color: #000000;
+  font-family: Fantasy, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main section, aside {
+  background-color: #fff; 
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main section header h2, aside header h2 {
+  color: #081C54; 
+}
+
+aside div h3 {
+  color: #081c54;
+}

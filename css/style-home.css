@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: auto; 
+}
+
+.navbar-nav .nav-link {
+  color: #081C54 !important;
+}
+
+.navbar-toggler i{
+  color: #081C54;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.container-main{
+  background-color: #081C54;
+}

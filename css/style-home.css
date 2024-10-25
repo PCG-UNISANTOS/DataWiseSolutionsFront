@@ -1,3 +1,4 @@
+/* Estilos já existentes */
 .navbar {
   background-color: #ffffff !important;
 }
@@ -11,7 +12,7 @@
   color: #081C54 !important;
 }
 
-.navbar-toggler i{
+.navbar-toggler i {
   color: #081C54;
 }
 
@@ -20,6 +21,68 @@
   box-shadow: none;
 }
 
-.container-main{
+.containerMain {
   background-color: #081C54;
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.mainBox {
+  display: flex;
+  gap: 200px;
+}
+
+.leftMainBox {
+  padding: 0px 0px 0px 90px;
+}
+
+.rightMainBox {
+  padding: 0px 90px 0px 0px;
+}
+
+.leftMainBox, .rightMainBox {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.rightMainTextTitle {
+  text-align: left;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.rightMainBox p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .mainBox {
+    flex-direction: column;
+    gap: 40px; 
+    padding: 0 20px;
+  }
+
+  .leftMainBox,
+  .rightMainBox {
+    padding: 0; /* Remove o padding lateral em telas pequenas */
+  }
+
+  .rightMainBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rightMainBox p{
+    text-align: justify;
+  }
+  .rightMainTextTitle {
+    font-size: 32px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+    text-align: center;
+  }
 }

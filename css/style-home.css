@@ -59,8 +59,72 @@
   letter-spacing: 0.05em;
 }
 
+/*GRÁFICO SECTION*/
+.containerGrafico{
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+.boxGrafico{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.graficoTitle{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.graficoImg{
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+/*GRÁFICO SECTION*/
+.containerDesenvolvimento{
+  background-color: #081C54;
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.boxDesenvolvimento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 0 100px;
+}
+
+.desenvolimentoTitle{
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.boxDesenvolvimento p{
+  color: #ffffff;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+}
+
+
+
+
 /* Media Query para telas menores */
 @media (max-width: 768px) {
+  .containerMain {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
   .mainBox {
     flex-direction: column;
     gap: 40px; 
@@ -77,12 +141,38 @@
     flex-direction: column;
     gap: 20px;
   }
-
+  div
   .rightMainBox p{
     text-align: justify;
   }
   .rightMainTextTitle {
     font-size: 32px; /* Ajuste o tamanho da fonte para dispositivos móveis */
     text-align: center;
+  }
+
+  /*GRAFICO SECTION*/
+
+  .graficoTitle{
+    font-size: 24px;
+  }
+  
+  .graficoImg{
+    width: 300px;
+  }
+
+  /*DESENVOLVIMENTO SECTION*/
+
+  .containerDesenvolvimento{
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .boxDesenvolvimento{
+    padding: 0 20px;
+  }
+  .desenvolimentoTitle{
+    font-size: 24px;
+  }
+  .boxDesenvolvimento p{
+    font-size: 18px;
   }
 }

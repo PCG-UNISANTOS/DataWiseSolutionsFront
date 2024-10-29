@@ -1,4 +1,8 @@
 /* Estilos já existentes */
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: #ffffff !important;
 }
@@ -263,8 +267,9 @@ footer {
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook {
-  background-color: #4267b3;
+#youtube {
+  background-color: #ad0303;
+  color: #ffffff;
 }
 
 #whatsapp {

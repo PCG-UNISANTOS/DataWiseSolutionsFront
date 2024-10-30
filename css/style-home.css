@@ -86,6 +86,7 @@ html {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+  padding: 0 100px;
 }
 
 .graficoImg{
@@ -109,7 +110,7 @@ html {
   padding: 0 100px;
 }
 
-.desenvolimentoTitle{
+.desenvolvimentoTitle{
   color: #ffffff;
   text-align: center;
   font-size: 32px;
@@ -163,6 +164,7 @@ html {
 
   .graficoTitle{
     font-size: 24px;
+    padding: 0 20px;
   }
   
   .graficoImg{

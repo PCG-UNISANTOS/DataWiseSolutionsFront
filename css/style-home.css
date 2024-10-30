@@ -28,8 +28,8 @@ html {
 .containerMain {
   background-color: #31457A;
   width: 100%;
-  height: 100vh;
-  padding-top: 40px;
+  height: auto;
+  padding: 40px 0px 120px 0px;
 }
 
 .mainBox {
@@ -79,6 +79,7 @@ html {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  padding-bottom: 120px;
 }
 
 .graficoTitle{
@@ -86,6 +87,7 @@ html {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+  padding: 0 100px;
 }
 
 .graficoImg{
@@ -93,12 +95,19 @@ html {
   margin-bottom: 100px;
 }
 
+.responsiveGrafico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /*GRÁFICO SECTION*/
 .containerDesenvolvimento{
   background-color: #31457A;
   width: 100%;
-  height: 100vh;
-  padding-top: 40px;
+  height: auto;
+  padding: 40px 0px 120px 0px;
 }
 
 .boxDesenvolvimento{
@@ -109,7 +118,7 @@ html {
   padding: 0 100px;
 }
 
-.desenvolimentoTitle{
+.desenvolvimentoTitle{
   color: #ffffff;
   text-align: center;
   font-size: 32px;
@@ -130,7 +139,6 @@ html {
 @media (max-width: 768px) {
   .containerMain {
     height: auto;
-    padding-bottom: 40px;
   }
 
   .mainBox {
@@ -163,6 +171,7 @@ html {
 
   .graficoTitle{
     font-size: 24px;
+    padding: 0 20px;
   }
   
   .graficoImg{
@@ -171,10 +180,6 @@ html {
 
   /*DESENVOLVIMENTO SECTION*/
 
-  .containerDesenvolvimento{
-    height: auto;
-    padding-bottom: 40px;
-  }
   .boxDesenvolvimento{
     padding: 0 20px;
   }

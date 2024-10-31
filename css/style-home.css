@@ -217,7 +217,7 @@ html {
 }
 
 main {
-  height: 80vh;
+  height: auto;
   background-color: var(--color-primary-light40);
 }
 

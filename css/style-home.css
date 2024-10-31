@@ -217,7 +217,7 @@ html {
 }
 
 main {
-  height: 80vh;
+  height: auto;
   background-color: var(--color-primary-light40);
 }
 
@@ -277,8 +277,13 @@ footer {
   color: #ffffff;
 }
 
-#whatsapp {
+.whatsappIcon {
   background-color: #25d366;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: gray;
 }
 
 .footer-list {

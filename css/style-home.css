@@ -277,8 +277,13 @@ footer {
   color: #ffffff;
 }
 
-#whatsapp {
+.whatsappIcon {
   background-color: #25d366;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: gray;
 }
 
 .footer-list {
